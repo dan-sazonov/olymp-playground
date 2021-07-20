@@ -1,9 +1,9 @@
-# fixme не сработает при нескольких парах с равной суммой
 n, k = map(int, input().split())
 pairs = dict()
-i = j = 1
+i = 1
 col1 = []
 col2 = []
+ans = {i: 0 for i in range(1, n * 2 + 1)}
 
 while i <= n:
     ft, sd = map(int, input().split())
@@ -30,6 +30,10 @@ for i in range(n - 1):
         pairs[tmp] = [{j + 1, j + 3}]
     j += 2
 print(pairs)
+
+for total in sorted(pairs.keys(), reverse=True):
+    print(pairs[total])
+
 '''
 4 2
 1 2
