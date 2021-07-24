@@ -1,10 +1,10 @@
+from math import sqrt
+
 n = int(input())
-i = 1
-ans = 0
+s1 = 0
 
-while i <= n:
+for i in range(1, int(sqrt(n)) + 1):
     if n % i == 0:
-        ans += i
-    i += 1
+        s1 += (n // i + i) if i != sqrt(n) else i
 
-print(ans)
+print(s1)
