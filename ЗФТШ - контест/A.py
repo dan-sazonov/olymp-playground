@@ -1,14 +1,10 @@
-def main():
-    input_file = open("input.txt", "r")
-    output_file = open("output.txt", "w")
-    line = input_file.readline().split(' ')
-    n, m, k = int(line[0]), int(line[1]), int(line[2])
-    if m < k:
-        ans = n * m
-    else:
-        ans = ((k - 1) + int(m / k)) * n
-    output_file.write(str(ans) + "\n")
+with open('input.txt', 'r') as in_file:
+    n, m, k = map(int, in_file.readline().split())
 
+if m < k:
+    ans = n * m
+else:
+    ans = ((k - 1) + int(m / k)) * n
 
-if __name__ == "__main__":
-    main()
+with open('output.txt', 'w') as out_file:
+    out_file.write(str(ans))
