@@ -1,6 +1,6 @@
 n = int(input())
 k = int(input())
-ans = n // k - 1
-ans = ans * 2
+x = (n // k) - 1
+x = x * 2
 
-print(ans)
+print(x)

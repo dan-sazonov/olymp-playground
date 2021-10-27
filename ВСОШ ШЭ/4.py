@@ -11,6 +11,4 @@ for i in range(1, len(a)):
             k = t
     else:
         break
-if k > len(a):
-    k = len(a)
-print(k)
+print(len(a) if k > len(a) else k)
