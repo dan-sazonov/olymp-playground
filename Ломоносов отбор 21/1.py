@@ -44,5 +44,8 @@ while unordered:
             unordered = True
     n -= 1
 
-for i in range(length):
-    print(nums[i][1])
+if length == 2:
+    print(nums[0][1])
+else:
+    for i in range(length):
+        print(nums[i][1])
