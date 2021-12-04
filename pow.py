@@ -11,7 +11,7 @@ def name_decode(name: str) -> int:
     return int(''.join(ans))
 
 
-def pow_b(a: int, n: float) -> int:
+def pow_b(a, n):
     if not n:
         return 1
     if n % 2 == 1:
@@ -30,7 +30,7 @@ def pow_b(a: int, n: float) -> int:
 # print(pow_b(7, 1024) % 10000)
 # print(pow_b(7, 2047) % 10000)
 # start1 = time()
-# print(pow(7081012, 999599) % 10000)
+print(pow(7081012, 999599) % 10000)
 # start2=time()
 # print(pow_b(7081012, 999599) % 10000)
 start = time()
