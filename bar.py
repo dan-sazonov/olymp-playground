@@ -2,6 +2,7 @@ from datetime import datetime
 
 n = int(2 ** 20 - 1)
 t = datetime.now()
+hack = 1025025474013
 
 sieve = list(range(n + 1))
 
