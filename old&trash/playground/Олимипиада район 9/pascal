@@ -1,0 +1,27 @@
+program who;
+var
+input, output : text;
+s, d, ans : int64;
+a, b, t : integer;
+begin
+assign(input, 'input.txt');
+assign(output, 'output.txt');
+reset(input);
+rewrite(output);
+read(input, d, a, b, s, t);
+if (abs(a - b) > 180) then
+ans := 360 - abs(a - b)
+else
+ans := abs(a - b);
+
+if (ans mod t > 0) then
+ans := ans div t + 1
+else
+ans := ans div t;
+ans := ans + d div s;
+if (d mod s > 0) then
+inc(ans);
+write(output, ans);
+close(input);
+close(output);
+end.

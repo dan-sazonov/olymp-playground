@@ -1,0 +1,8 @@
+def foo():
+    for x in range(1, 6):
+        print(int(((18111 / 2) * x ** 4) - (90555 * x ** 3) + ((633885 / 2) * x ** 2) - (452773 * x) + 217331))
+
+
+def bar():
+    for c in range(1, 10):
+        print(37037 * c * 3)

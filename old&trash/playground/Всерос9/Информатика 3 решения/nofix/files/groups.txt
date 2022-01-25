@@ -1,0 +1,8 @@
+group="0";
+group="1"; feedback = "outcome"; group-bonus = "7"; scoring = "group"; require-groups = "0" 
+group="2"; feedback = "outcome"; group-bonus = "7"; scoring = "group"; require-groups = "0 1"
+group="3"; feedback = "outcome"; group-bonus = "7"; scoring = "group"; require-groups = "0"
+group="4"; feedback = "outcome"; group-bonus = "7"; scoring = "group"; require-groups = "0 3" 
+group="5"; feedback = "outcome"; group-bonus = "15"; scoring = "group"; require-groups = "" 
+group="6"; feedback = "outcome"; group-bonus = "20"; scoring = "group"; require-groups = "0 1 3 5 6" 
+group="7"; feedback = "outcome"; group-bonus = "37"; scoring = "group"; require-groups = "0 1 2 3 4 5 6" 

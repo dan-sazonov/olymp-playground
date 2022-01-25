@@ -1,0 +1,130 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<problem
+	version = "1.0"
+	id = "ru.olymp.spb.municipal.2018.different"
+>
+	<judging>
+		<script type = "%icpc">
+			<testset
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "2.0s"
+				memory-limit = "268435456"
+				test-count = "41"
+			>
+			</testset>
+			<verifier type = "%testlib">
+				<binary executable-id = "x86.exe.win32" file = "check.exe" />
+			</verifier>
+		</script>
+		<script type = "%ioi">
+			<testset
+				name = "preliminary"
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "2.0s"
+				memory-limit = "268435456"
+			>
+				<test comment = "generated cmd: 'gen'" />
+			</testset>
+			<testset
+				name = "main"
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "2.0s"
+				memory-limit = "268435456"
+			>
+				<test-group
+					comment = "0. Sample tests"
+					scoring = "sum"
+					feedback = "statistics"
+					group-bonus = "0"
+					require-groups = ""
+				>
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+				<test-group
+					comment = "1"
+					scoring = "group"
+					feedback = "outcome"
+					group-bonus = "15"
+					require-groups = "1 "
+				>
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+				<test-group
+					comment = "2"
+					scoring = "group"
+					feedback = "outcome"
+					group-bonus = "45"
+					require-groups = "1 2 "
+				>
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+				<test-group
+					comment = "3"
+					scoring = "group"
+					feedback = "outcome"
+					group-bonus = "22"
+					require-groups = "1 2 3 "
+				>
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+				<test-group
+					comment = "4"
+					scoring = "group"
+					feedback = "outcome"
+					group-bonus = "18"
+					require-groups = "1 2 3 4 "
+				>
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+			</testset>
+			<verifier type = "%testlib">
+				<binary executable-id = "x86.exe.win32" file = "check.exe" />
+			</verifier>
+		</script>
+	</judging>
+</problem>

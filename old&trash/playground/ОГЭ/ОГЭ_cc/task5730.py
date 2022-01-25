@@ -1,0 +1,1 @@
+print(sum(filter(lambda x: True if x % 5 == 0 or x % 9 == 0 else False, map(int, input().split()))))

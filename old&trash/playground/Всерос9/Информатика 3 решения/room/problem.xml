@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<problem
+	version = "1.0"
+	id = "ru.olymp.spb.municipal.2018.room"
+>
+	<judging>
+		<script type = "%icpc">
+			<testset
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "1.0s"
+				memory-limit = "268435456"
+				test-count = "12"
+			>
+			</testset>
+			<verifier type = "%testlib">
+				<binary executable-id = "x86.exe.win32" file = "check.exe" />
+			</verifier>
+		</script>
+		<script type = "%ioi">
+			<testset
+				name = "preliminary"
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "1.0s"
+				memory-limit = "268435456"
+			>
+				<test comment = "generated cmd: 'gen'" />
+				<test comment = "generated cmd: 'gen'" />
+			</testset>
+			<testset
+				name = "main"
+				input-name = "*"
+				output-name = "*"
+				input-href = "tests/##"
+				answer-href = "tests/##.a"
+				time-limit = "1.0s"
+				memory-limit = "268435456"
+			>
+				<test-group
+					comment = "0. Sample tests"
+					scoring = "sum"
+					feedback = "statistics"
+					group-bonus = "0"
+					require-groups = ""
+				>
+					<test comment = "generated cmd: 'gen'" />
+					<test comment = "generated cmd: 'gen'" />
+				</test-group>
+				<test-group
+					comment = "1"
+					scoring = "sum"
+					feedback = "outcome"
+					group-bonus = "0"
+					require-groups = ""
+				>
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+					<test points = "10" comment = "generated cmd: 'gen'" />
+				</test-group>
+			</testset>
+			<verifier type = "%testlib">
+				<binary executable-id = "x86.exe.win32" file = "check.exe" />
+			</verifier>
+		</script>
+	</judging>
+</problem>

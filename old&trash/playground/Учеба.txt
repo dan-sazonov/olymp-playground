@@ -1,0 +1,44 @@
+PYTHON:
+тестирование программы
+классы
+unittest
+ООП
+докстринги, семнатчисекий нэйминг
+декораторы https://proglib.io/p/vse-chto-nuzhno-znat-o-dekoratorah-python-2020-05-09
+модули,  пакеты
+pep343
+зафигачить либу с модулями из sort.py
+pep257
+хранение данных, бд
+
+К ОЛИМПИАДАМ:
+генераторы, итераторы, yield
+работа со временем: time, datetime
+практика битовых операторов и использование флагов
+регулярные выражения
+битовые операции изучить и юзать
+конечный автомат
+
+WEB:
+видео по шторму - спринт
+animate
+неизвестные свойства, Функции
+position - все свойства
+деплой из шторма на хостинге
+потыкать paper js
+научиться рисовать на холсте по щелчку
+ARIA
+gulp, babel, elsint
+првильное ветвление, освоить
+функции css
+grid
+object-fit, object-position
+::marker
+Генераторы статики: jekyll, gatsby, 11ty
+
+ОБЩЕЕ:
+изучить лицензии
+git flow
+gitgraph
+hub
+https://openssource.biz/plastik-universitet-kiberbezopasnosti-i-anonimnosti-2-0.html

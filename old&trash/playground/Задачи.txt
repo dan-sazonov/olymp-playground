@@ -1,0 +1,26 @@
+https://tproger.ru/problems/python-3-exercises-for-beginners-geekbrains/
+https://pythonworld.ru/osnovy/tasks.html
+https://pythontutor.ru/lessons/inout_and_arithmetic_operations/ - задачи после каждого урока
+https://euler.jakumo.org/problems/pg/1.html
+https://zen.yandex.ru/media/nuancesprog/5-zadach-dlia-python-5e95fcba18bc2307840c8d45 - сложные реальные проекты
+https://coderbyte.com/challenges - задачи с собесов
+https://server.179.ru/tasks/python/2014b1/22-bits.html - битовые операции
+https://pythoneuler.ru/problems/ - решение задач эйлера
+Задачи от Sololearn в приложении
+https://www.codewars.com/kata/latest/my-languages
+https://tproger.ru/problems/moscow-programming-contest-tasks/
+\\Nas\даня\Алгоритмы\Задачи на алгоритмы
+\\Nas\даня\Python - учеба\Задачи
+задачи на побитовые сдвиги - https://www.bestprog.net/ru/2019/10/21/python-bitwise-operators-ru/
+https://informatics.mccme.ru/
+Генератор всех чисел длины n
+https://codeforces.com/gym/102330
+https://acmp.ru/index.asp?main=task&id_task=476
+https://bit.ly/2Y9Oyq2 - разбор задач с acmp
+
+FUCKED UP:
+https://acmp.ru/index.asp?main=task&id_task=257
+https://informatics.mccme.ru/mod/statements/view.php?id=3516&chapterid=3571#1
+https://informatics.mccme.ru/mod/statements/view.php?id=1966&chapterid=1620#1
+https://informatics.mccme.ru/mod/statements/view.php?id=1966&chapterid=894#1
+https://informatics.mccme.ru/mod/statements/view.php?id=1966&chapterid=414#1

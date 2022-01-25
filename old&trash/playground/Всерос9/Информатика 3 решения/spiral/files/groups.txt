@@ -1,0 +1,2 @@
+group="0";
+group="1"; feedback = "outcome"; points = "100"; scoring = "sum"
