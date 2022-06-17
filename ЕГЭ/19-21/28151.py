@@ -10,6 +10,10 @@ def win2(s):
     return loss1(s + 1) or loss1(s * 3)
 
 
+def loss12(s):
+    return (win1(s+1)or win2(s+1)) and (win1(s*3)or win2(s*3))
+
+
 for s in range(1, 30):
-    if win2(s):
+    if loss12(s):
         print(s)
